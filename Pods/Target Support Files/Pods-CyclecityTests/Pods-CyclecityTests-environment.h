@@ -12,3 +12,15 @@
 #define COCOAPODS_VERSION_MINOR_EstimoteSDK 4
 #define COCOAPODS_VERSION_PATCH_EstimoteSDK 0
 
+// expecta
+#define COCOAPODS_POD_AVAILABLE_expecta
+#define COCOAPODS_VERSION_MAJOR_expecta 0
+#define COCOAPODS_VERSION_MINOR_expecta 4
+#define COCOAPODS_VERSION_PATCH_expecta 2
+
+// specta
+#define COCOAPODS_POD_AVAILABLE_specta
+#define COCOAPODS_VERSION_MAJOR_specta 0
+#define COCOAPODS_VERSION_MINOR_specta 5
+#define COCOAPODS_VERSION_PATCH_specta 0
+
