@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B05A3FB4E3B50B23C6896F5C"
+               BlueprintIdentifier = "F1847455E51AEB6D0F87E18F"
                BuildableName = "libPods-CyclecityTests-EstimoteSDK.a"
                BlueprintName = "Pods-CyclecityTests-EstimoteSDK"
                ReferencedContainer = "container:Pods.xcodeproj">

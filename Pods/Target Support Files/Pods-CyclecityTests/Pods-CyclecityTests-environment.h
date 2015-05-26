@@ -14,13 +14,13 @@
 
 // expecta
 #define COCOAPODS_POD_AVAILABLE_expecta
-#define COCOAPODS_VERSION_MAJOR_expecta 0
-#define COCOAPODS_VERSION_MINOR_expecta 4
-#define COCOAPODS_VERSION_PATCH_expecta 2
+#define COCOAPODS_VERSION_MAJOR_expecta 1
+#define COCOAPODS_VERSION_MINOR_expecta 0
+#define COCOAPODS_VERSION_PATCH_expecta 0
 
 // specta
 #define COCOAPODS_POD_AVAILABLE_specta
-#define COCOAPODS_VERSION_MAJOR_specta 0
-#define COCOAPODS_VERSION_MINOR_specta 5
+#define COCOAPODS_VERSION_MAJOR_specta 1
+#define COCOAPODS_VERSION_MINOR_specta 0
 #define COCOAPODS_VERSION_PATCH_specta 0
 
