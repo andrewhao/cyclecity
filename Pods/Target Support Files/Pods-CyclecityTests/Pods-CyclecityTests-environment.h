@@ -12,15 +12,9 @@
 #define COCOAPODS_VERSION_MINOR_EstimoteSDK 4
 #define COCOAPODS_VERSION_PATCH_EstimoteSDK 0
 
-// expecta
-#define COCOAPODS_POD_AVAILABLE_expecta
-#define COCOAPODS_VERSION_MAJOR_expecta 1
-#define COCOAPODS_VERSION_MINOR_expecta 0
-#define COCOAPODS_VERSION_PATCH_expecta 0
-
-// specta
-#define COCOAPODS_POD_AVAILABLE_specta
-#define COCOAPODS_VERSION_MAJOR_specta 1
-#define COCOAPODS_VERSION_MINOR_specta 0
-#define COCOAPODS_VERSION_PATCH_specta 0
+// Quick
+#define COCOAPODS_POD_AVAILABLE_Quick
+#define COCOAPODS_VERSION_MAJOR_Quick 0
+#define COCOAPODS_VERSION_MINOR_Quick 3
+#define COCOAPODS_VERSION_PATCH_Quick 1
 

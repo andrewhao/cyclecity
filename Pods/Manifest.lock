@@ -1,16 +1,13 @@
 PODS:
   - EstimoteSDK (2.4.0)
-  - Expecta (1.0.0)
-  - Specta (1.0.0)
+  - Quick (0.3.1)
 
 DEPENDENCIES:
   - EstimoteSDK
-  - expecta
-  - specta
+  - Quick
 
 SPEC CHECKSUMS:
   EstimoteSDK: d130c9d111b1c0522222afc97b43f245660cbd7c
-  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
-  Specta: 96fe05fe5c7348b5223f85e862904f6e832abb14
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
 
-COCOAPODS: 0.36.0.rc.1
+COCOAPODS: 0.36.0.beta.2

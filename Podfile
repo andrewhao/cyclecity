@@ -7,7 +7,6 @@ target 'Cyclecity' do
 end
 
 target 'CyclecityTests' do
-  pod "specta"
-  pod "expecta"
+  pod "Quick"
 end
 

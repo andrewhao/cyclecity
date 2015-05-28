@@ -19,12 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-CyclecityTests-Expecta.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-CyclecityTests-Specta.xcscheme</key>
+		<key>Pods-CyclecityTests-Quick.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,42 +42,37 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1D2EE8933F3DAFF793B66571</key>
+		<key>161DDC990C05E2CC16D782BF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>22DD9852616B2CFE02740BB0</key>
+		<key>229DA0592F1807B5A3830156</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2728A0A9AF7C4B9557CA746E</key>
+		<key>4F18B736EE048211D66DE451</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2A7BACAB175CBAB7ACD257FD</key>
+		<key>6C1357FBBAD88556A1DB25FC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4EB7ACDA86B69FACB8F6CDC0</key>
+		<key>A5455198660AFC2CC2C53A1E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>550A42406842183294147D62</key>
+		<key>A5573CEC6B0642D287FF029E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B8E77B868698B8CBBF6BB1D5</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F1847455E51AEB6D0F87E18F</key>
+		<key>D170332681F6086A8823C6DC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
