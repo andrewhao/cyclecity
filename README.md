@@ -4,9 +4,15 @@ GPS-powered bike commute metrics.
 
 ### Use cases
 
+#### Initialize
+
+- Load start screen
+- Present menu items
+
 #### GPS Tracking
 
-- Create a track
+- Start recording a track
+- Finalize a track
 - View a track
 - Delete a track
 
@@ -25,4 +31,10 @@ GPS-powered bike commute metrics.
 ### Entity
 
 ### Routing
+
+### Wireframe
+
+- define routes from one to another
+- owns UIWindow, UINavigationController
+
 

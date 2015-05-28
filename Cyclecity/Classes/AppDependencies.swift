@@ -2,6 +2,8 @@ import Foundation
 import UIKit
 
 class AppDependencies {
+  var home = HomeWireframe()
+  
   init() {
     configureDependencies()
   }
