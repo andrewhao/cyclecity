@@ -19,6 +19,7 @@
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
 		86A4367C1B1CD5A9005CE1A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A4367A1B1CD5A9005CE1A1 /* LaunchScreen.xib */; };
 		86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */; };
+		86D6EF411B1D0C1300EB27BF /* AppDependenciesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		86A436811B1CD5A9005CE1A1 /* CyclecityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclecityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436861B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclecityTests.swift; sourceTree = "<group>"; };
+		86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependenciesSpec.swift; sourceTree = "<group>"; };
 		B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */,
+				86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */,
 				86A436851B1CD5A9005CE1A1 /* Supporting Files */,
 			);
 			path = CyclecityTests;
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */,
+				86D6EF411B1D0C1300EB27BF /* AppDependenciesSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,5 +9,6 @@
 import Foundation
 
 class HomePresenter : NSObject {
-  
+  var wireframe: HomeWireframe?
+  var userInterface: HomeViewController?
 }

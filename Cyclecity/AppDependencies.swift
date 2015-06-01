@@ -1,10 +1,10 @@
 import Foundation
 import UIKit
 
-class AppDependencies {
+public class AppDependencies {
   var home = HomeWireframe()
   
-  init() {
+  public init() {
     configureDependencies()
   }
 
@@ -12,7 +12,7 @@ class AppDependencies {
     // TODO Wire up the components here.
   }
 
-  func installRootViewControllerIntoWindow(window: UIWindow) {
-
+  public func installRootViewControllerIntoWindow(window: UIWindow) -> Bool {
+    return true
   }
 }

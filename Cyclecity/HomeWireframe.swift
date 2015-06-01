@@ -9,7 +9,7 @@ class HomeWireframe : NSObject {
   var rootWireframe : RootWireframe?
   var homeViewController : HomeViewController?
   
-  func presenthomeInterfaceFromWindow(window: UIWindow) {
+  func presentHomeInterfaceFromWindow(window: UIWindow) {
     let viewController = homeViewControllerFromStoryboard()
     viewController.eventHandler = homePresenter
     homeViewController = viewController
@@ -17,13 +17,9 @@ class HomeWireframe : NSObject {
     rootWireframe?.showRootViewController(viewController, inWindow: window)
   }
   
-  func presentAddInterface() {
-    addWireframe?.presentAddInterfaceFromViewController(homeViewController!)
-  }
-  
   func homeViewControllerFromStoryboard() -> HomeViewController {
     let storyboard = mainStoryboard()
-    let viewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as HomeViewController
+    let viewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as! HomeViewController
     return viewController
   }
   
@@ -31,5 +27,4 @@ class HomeWireframe : NSObject {
     let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
     return storyboard
   }
-  
 }
