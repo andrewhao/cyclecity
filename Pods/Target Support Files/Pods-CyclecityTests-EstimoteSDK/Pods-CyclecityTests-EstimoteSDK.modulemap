@@ -1,6 +1,0 @@
-framework module EstimoteSDK {
-  umbrella header "Pods-CyclecityTests-EstimoteSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}
