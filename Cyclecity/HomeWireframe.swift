@@ -23,7 +23,7 @@ class HomeWireframe : NSObject {
   
   func homeViewControllerFromStoryboard() -> HomeViewController {
     let storyboard = mainStoryboard()
-    let viewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as homeViewController
+    let viewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as HomeViewController
     return viewController
   }
   

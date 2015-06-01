@@ -5,5 +5,8 @@ target 'Cyclecity' do
 end
 
 target 'CyclecityTests' do
+  use_frameworks!
+  pod 'Quick'
+  pod 'Nimble'
 end
 

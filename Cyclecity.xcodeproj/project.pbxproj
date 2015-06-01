@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1574E1FB722AB6D2191D5CF4 /* Pods_CyclecityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		8667113B1B1CD6950057774E /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711381B1CD6950057774E /* AppDependencies.swift */; };
 		8667113C1B1CD6950057774E /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711391B1CD6950057774E /* HomeWireframe.swift */; };
 		8667113D1B1CD6950057774E /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667113A1B1CD6950057774E /* RootWireframe.swift */; };
@@ -31,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclecityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		866711381B1CD6950057774E /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
 		866711391B1CD6950057774E /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
 		8667113A1B1CD6950057774E /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		86A436811B1CD5A9005CE1A1 /* CyclecityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclecityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436861B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclecityTests.swift; sourceTree = "<group>"; };
+		B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,18 +64,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1574E1FB722AB6D2191D5CF4 /* Pods_CyclecityTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DC07F792B2048FD80B6797F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */,
+				B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86A436631B1CD5A9005CE1A1 = {
 			isa = PBXGroup;
 			children = (
 				86A4366E1B1CD5A9005CE1A1 /* Cyclecity */,
 				86A436841B1CD5A9005CE1A1 /* CyclecityTests */,
 				86A4366D1B1CD5A9005CE1A1 /* Products */,
+				5DC07F792B2048FD80B6797F /* Pods */,
+				F3EABDBA461A8006125B8FBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +143,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F3EABDBA461A8006125B8FBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -151,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86A4368E1B1CD5A9005CE1A1 /* Build configuration list for PBXNativeTarget "CyclecityTests" */;
 			buildPhases = (
+				D1A8FD1AA80FE889A3601E5F /* Check Pods Manifest.lock */,
 				86A4367D1B1CD5A9005CE1A1 /* Sources */,
 				86A4367E1B1CD5A9005CE1A1 /* Frameworks */,
 				86A4367F1B1CD5A9005CE1A1 /* Resources */,
+				714F5EA3F8EC701DF3E3808B /* Embed Pods Frameworks */,
+				DE3D1B89A52178ED708665E0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -221,6 +248,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		714F5EA3F8EC701DF3E3808B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A8FD1AA80FE889A3601E5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3D1B89A52178ED708665E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86A436681B1CD5A9005CE1A1 /* Sources */ = {
@@ -380,6 +455,7 @@
 		};
 		86A4368F1B1CD5A9005CE1A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -399,6 +475,7 @@
 		};
 		86A436901B1CD5A9005CE1A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
