@@ -8,18 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1574E1FB722AB6D2191D5CF4 /* Pods_CyclecityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		8667113B1B1CD6950057774E /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711381B1CD6950057774E /* AppDependencies.swift */; };
-		8667113C1B1CD6950057774E /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711391B1CD6950057774E /* HomeWireframe.swift */; };
-		8667113D1B1CD6950057774E /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667113A1B1CD6950057774E /* RootWireframe.swift */; };
-		8667113F1B1CD7230057774E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667113E1B1CD7230057774E /* HomeViewController.swift */; };
-		866711411B1CD7750057774E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711401B1CD7750057774E /* HomePresenter.swift */; };
-		86A436721B1CD5A9005CE1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */; };
-		86A436741B1CD5A9005CE1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436731B1CD5A9005CE1A1 /* ViewController.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
 		86A4367C1B1CD5A9005CE1A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A4367A1B1CD5A9005CE1A1 /* LaunchScreen.xib */; };
 		86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */; };
-		86D6EF411B1D0C1300EB27BF /* AppDependenciesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */; };
+		86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */; };
+		86F6CEFE1B1D258700CADD18 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEEC1B1D258700CADD18 /* RootWireframe.swift */; };
+		86F6CEFF1B1D258700CADD18 /* CyclecityAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEED1B1D258700CADD18 /* CyclecityAppDelegate.swift */; };
+		86F6CF001B1D258700CADD18 /* CyclecityAppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEEE1B1D258700CADD18 /* CyclecityAppDependencies.swift */; };
+		86F6CF011B1D258700CADD18 /* HomeDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEF21B1D258700CADD18 /* HomeDataManager.swift */; };
+		86F6CF021B1D258700CADD18 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEF41B1D258700CADD18 /* HomeInteractor.swift */; };
+		86F6CF031B1D258700CADD18 /* HomeModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEF61B1D258700CADD18 /* HomeModuleInterface.swift */; };
+		86F6CF041B1D258700CADD18 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEF81B1D258700CADD18 /* HomePresenter.swift */; };
+		86F6CF051B1D258700CADD18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEFA1B1D258700CADD18 /* HomeViewController.swift */; };
+		86F6CF061B1D258700CADD18 /* HomeViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEFB1B1D258700CADD18 /* HomeViewInterface.swift */; };
+		86F6CF071B1D258700CADD18 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEFD1B1D258700CADD18 /* HomeWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +38,25 @@
 /* Begin PBXFileReference section */
 		03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclecityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.debug.xcconfig"; sourceTree = "<group>"; };
-		866711381B1CD6950057774E /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
-		866711391B1CD6950057774E /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
-		8667113A1B1CD6950057774E /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
-		8667113E1B1CD7230057774E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		866711401B1CD7750057774E /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86A436731B1CD5A9005CE1A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86A436761B1CD5A9005CE1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86A436781B1CD5A9005CE1A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86A4367B1B1CD5A9005CE1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		86A436811B1CD5A9005CE1A1 /* CyclecityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CyclecityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436861B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclecityTests.swift; sourceTree = "<group>"; };
-		86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependenciesSpec.swift; sourceTree = "<group>"; };
+		86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDependenciesSpec.swift; sourceTree = "<group>"; };
+		86F6CEEC1B1D258700CADD18 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		86F6CEED1B1D258700CADD18 /* CyclecityAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDelegate.swift; sourceTree = "<group>"; };
+		86F6CEEE1B1D258700CADD18 /* CyclecityAppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDependencies.swift; sourceTree = "<group>"; };
+		86F6CEF21B1D258700CADD18 /* HomeDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDataManager.swift; sourceTree = "<group>"; };
+		86F6CEF41B1D258700CADD18 /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		86F6CEF61B1D258700CADD18 /* HomeModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModuleInterface.swift; sourceTree = "<group>"; };
+		86F6CEF81B1D258700CADD18 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		86F6CEFA1B1D258700CADD18 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		86F6CEFB1B1D258700CADD18 /* HomeViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewInterface.swift; sourceTree = "<group>"; };
+		86F6CEFD1B1D258700CADD18 /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
 		B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,13 +111,7 @@
 		86A4366E1B1CD5A9005CE1A1 /* Cyclecity */ = {
 			isa = PBXGroup;
 			children = (
-				8667113E1B1CD7230057774E /* HomeViewController.swift */,
-				866711381B1CD6950057774E /* AppDependencies.swift */,
-				866711391B1CD6950057774E /* HomeWireframe.swift */,
-				866711401B1CD7750057774E /* HomePresenter.swift */,
-				8667113A1B1CD6950057774E /* RootWireframe.swift */,
-				86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */,
-				86A436731B1CD5A9005CE1A1 /* ViewController.swift */,
+				86F6CEE51B1D258700CADD18 /* Classes */,
 				86A436751B1CD5A9005CE1A1 /* Main.storyboard */,
 				86A436781B1CD5A9005CE1A1 /* Images.xcassets */,
 				86A4367A1B1CD5A9005CE1A1 /* LaunchScreen.xib */,
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */,
-				86D6EF401B1D0C1300EB27BF /* AppDependenciesSpec.swift */,
+				86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */,
 				86A436851B1CD5A9005CE1A1 /* Supporting Files */,
 			);
 			path = CyclecityTests;
@@ -144,6 +144,135 @@
 				86A436861B1CD5A9005CE1A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F6CEE51B1D258700CADD18 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEE61B1D258700CADD18 /* Common */,
+				86F6CEED1B1D258700CADD18 /* CyclecityAppDelegate.swift */,
+				86F6CEEE1B1D258700CADD18 /* CyclecityAppDependencies.swift */,
+				86F6CEEF1B1D258700CADD18 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		86F6CEE61B1D258700CADD18 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEE71B1D258700CADD18 /* Categories */,
+				86F6CEE81B1D258700CADD18 /* Model */,
+				86F6CEE91B1D258700CADD18 /* Store */,
+				86F6CEEA1B1D258700CADD18 /* Utils */,
+				86F6CEEB1B1D258700CADD18 /* Wireframe */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		86F6CEE71B1D258700CADD18 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		86F6CEE81B1D258700CADD18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		86F6CEE91B1D258700CADD18 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		86F6CEEA1B1D258700CADD18 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		86F6CEEB1B1D258700CADD18 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEEC1B1D258700CADD18 /* RootWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		86F6CEEF1B1D258700CADD18 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF01B1D258700CADD18 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		86F6CEF01B1D258700CADD18 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF11B1D258700CADD18 /* DataManager */,
+				86F6CEF31B1D258700CADD18 /* Interactor */,
+				86F6CEF51B1D258700CADD18 /* ModuleInterface */,
+				86F6CEF71B1D258700CADD18 /* Presenter */,
+				86F6CEF91B1D258700CADD18 /* View */,
+				86F6CEFC1B1D258700CADD18 /* Wireframe */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		86F6CEF11B1D258700CADD18 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF21B1D258700CADD18 /* HomeDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		86F6CEF31B1D258700CADD18 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF41B1D258700CADD18 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		86F6CEF51B1D258700CADD18 /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF61B1D258700CADD18 /* HomeModuleInterface.swift */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		86F6CEF71B1D258700CADD18 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEF81B1D258700CADD18 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		86F6CEF91B1D258700CADD18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEFA1B1D258700CADD18 /* HomeViewController.swift */,
+				86F6CEFB1B1D258700CADD18 /* HomeViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		86F6CEFC1B1D258700CADD18 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				86F6CEFD1B1D258700CADD18 /* HomeWireframe.swift */,
+			);
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		F3EABDBA461A8006125B8FBB /* Frameworks */ = {
@@ -305,13 +434,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				866711411B1CD7750057774E /* HomePresenter.swift in Sources */,
-				8667113D1B1CD6950057774E /* RootWireframe.swift in Sources */,
-				8667113B1B1CD6950057774E /* AppDependencies.swift in Sources */,
-				8667113C1B1CD6950057774E /* HomeWireframe.swift in Sources */,
-				86A436741B1CD5A9005CE1A1 /* ViewController.swift in Sources */,
-				86A436721B1CD5A9005CE1A1 /* AppDelegate.swift in Sources */,
-				8667113F1B1CD7230057774E /* HomeViewController.swift in Sources */,
+				86F6CF041B1D258700CADD18 /* HomePresenter.swift in Sources */,
+				86F6CF061B1D258700CADD18 /* HomeViewInterface.swift in Sources */,
+				86F6CF001B1D258700CADD18 /* CyclecityAppDependencies.swift in Sources */,
+				86F6CF071B1D258700CADD18 /* HomeWireframe.swift in Sources */,
+				86F6CEFF1B1D258700CADD18 /* CyclecityAppDelegate.swift in Sources */,
+				86F6CF051B1D258700CADD18 /* HomeViewController.swift in Sources */,
+				86F6CF031B1D258700CADD18 /* HomeModuleInterface.swift in Sources */,
+				86F6CF011B1D258700CADD18 /* HomeDataManager.swift in Sources */,
+				86F6CF021B1D258700CADD18 /* HomeInteractor.swift in Sources */,
+				86F6CEFE1B1D258700CADD18 /* RootWireframe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */,
-				86D6EF411B1D0C1300EB27BF /* AppDependenciesSpec.swift in Sources */,
+				86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
