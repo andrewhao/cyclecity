@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8667113B1B1CD6950057774E /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711381B1CD6950057774E /* AppDependencies.swift */; };
+		8667113C1B1CD6950057774E /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711391B1CD6950057774E /* HomeWireframe.swift */; };
+		8667113D1B1CD6950057774E /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667113A1B1CD6950057774E /* RootWireframe.swift */; };
+		8667113F1B1CD7230057774E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8667113E1B1CD7230057774E /* HomeViewController.swift */; };
+		866711411B1CD7750057774E /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866711401B1CD7750057774E /* HomePresenter.swift */; };
 		86A436721B1CD5A9005CE1A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */; };
 		86A436741B1CD5A9005CE1A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A436731B1CD5A9005CE1A1 /* ViewController.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
@@ -26,6 +31,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		866711381B1CD6950057774E /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		866711391B1CD6950057774E /* HomeWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		8667113A1B1CD6950057774E /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		8667113E1B1CD7230057774E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		866711401B1CD7750057774E /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +87,11 @@
 		86A4366E1B1CD5A9005CE1A1 /* Cyclecity */ = {
 			isa = PBXGroup;
 			children = (
+				8667113E1B1CD7230057774E /* HomeViewController.swift */,
+				866711381B1CD6950057774E /* AppDependencies.swift */,
+				866711391B1CD6950057774E /* HomeWireframe.swift */,
+				866711401B1CD7750057774E /* HomePresenter.swift */,
+				8667113A1B1CD6950057774E /* RootWireframe.swift */,
 				86A436711B1CD5A9005CE1A1 /* AppDelegate.swift */,
 				86A436731B1CD5A9005CE1A1 /* ViewController.swift */,
 				86A436751B1CD5A9005CE1A1 /* Main.storyboard */,
@@ -212,8 +227,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866711411B1CD7750057774E /* HomePresenter.swift in Sources */,
+				8667113D1B1CD6950057774E /* RootWireframe.swift in Sources */,
+				8667113B1B1CD6950057774E /* AppDependencies.swift in Sources */,
+				8667113C1B1CD6950057774E /* HomeWireframe.swift in Sources */,
 				86A436741B1CD5A9005CE1A1 /* ViewController.swift in Sources */,
 				86A436721B1CD5A9005CE1A1 /* AppDelegate.swift in Sources */,
+				8667113F1B1CD7230057774E /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +431,7 @@
 				86A4368D1B1CD5A9005CE1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86A4368E1B1CD5A9005CE1A1 /* Build configuration list for PBXNativeTarget "CyclecityTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +440,7 @@
 				86A436901B1CD5A9005CE1A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
