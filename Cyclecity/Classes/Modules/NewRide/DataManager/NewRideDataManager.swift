@@ -8,7 +8,6 @@
 
 import Foundation
 
-class NewRideDataManager: NSObject
-{
+class NewRideDataManager: NSObject {
 
 }

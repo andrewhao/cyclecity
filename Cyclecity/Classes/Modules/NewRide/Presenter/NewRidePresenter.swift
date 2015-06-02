@@ -9,10 +9,13 @@
 import Foundation
 
 class NewRidePresenter: NSObject, NewRideModuleInterface {
-    var interactor: NewRideInteractor?
-    var wireframe: NewRideWireframe?
-    var userInterface: NewRideViewInterface?
+  var interactor: NewRideInteractor?
+  var wireframe: NewRideWireframe?
+  var userInterface: NewRideViewInterface?
 
-    // MARK: - NewRideModuleInterface methods
-    // implement module interface here
+  // MARK: - NewRideModuleInterface methods
+  // implement module interface here
+
+  func startRecordingGpsTrack() {
+  }
 }

@@ -28,9 +28,14 @@ class NewRideViewController: UIViewController, NewRideViewInterface {
   // MARK: - NewRideViewInterface methods
 
   // *** implement view_interface methods here
+  func startRecording() {
+  }
 
   // MARK: - Button event handlers
 
   // ** handle UI events here
-
+  @IBAction func start(sender: AnyObject) {
+    println("starting")
+    self.startRecording()
+  }
 }

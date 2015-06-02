@@ -8,12 +8,10 @@
 
 import Foundation
 
-protocol NewRideModuleInterface
-{
-
+protocol NewRideModuleInterface {
+  func startRecordingGpsTrack()
 }
 
-protocol NewRideModuleDelegate
-{
+protocol NewRideModuleDelegate {
 
 }

@@ -16,6 +16,8 @@
 		863B66E21B1E5001001C88FE /* NewRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DA1B1E5001001C88FE /* NewRideViewController.swift */; };
 		863B66E31B1E5001001C88FE /* NewRideViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */; };
 		863B66E41B1E5001001C88FE /* NewRideWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */; };
+		863B66E61B1E6821001C88FE /* NewRideViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */; };
+		863B66EA1B1E7024001C88FE /* NewRidePresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66E91B1E7024001C88FE /* NewRidePresenterSpec.swift */; };
 		864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
@@ -55,6 +57,8 @@
 		863B66DA1B1E5001001C88FE /* NewRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewController.swift; sourceTree = "<group>"; };
 		863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewInterface.swift; sourceTree = "<group>"; };
 		863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideWireframe.swift; sourceTree = "<group>"; };
+		863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewRideViewControllerSpec.swift; path = CyclecityTests/NewRideViewControllerSpec.swift; sourceTree = "<group>"; };
+		863B66E91B1E7024001C88FE /* NewRidePresenterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRidePresenterSpec.swift; sourceTree = "<group>"; };
 		864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframeSpec.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 		86A436631B1CD5A9005CE1A1 = {
 			isa = PBXGroup;
 			children = (
+				863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */,
 				863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */,
 				86A4366E1B1CD5A9005CE1A1 /* Cyclecity */,
 				86A436841B1CD5A9005CE1A1 /* CyclecityTests */,
@@ -212,6 +217,7 @@
 		86A436841B1CD5A9005CE1A1 /* CyclecityTests */ = {
 			isa = PBXGroup;
 			children = (
+				863B66E91B1E7024001C88FE /* NewRidePresenterSpec.swift */,
 				864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */,
 				86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */,
 				86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */,
@@ -541,6 +547,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863B66EA1B1E7024001C88FE /* NewRidePresenterSpec.swift in Sources */,
+				863B66E61B1E6821001C88FE /* NewRideViewControllerSpec.swift in Sources */,
 				864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */,
 				86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */,
 				86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */,

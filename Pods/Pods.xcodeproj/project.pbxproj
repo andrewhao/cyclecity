@@ -50,6 +50,7 @@
 		838C987F641D4CEF994BC8E7 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71286926646299D430D53E76 /* DSL.swift */; };
 		838ED436DEC752F147DA4245 /* BeEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4062CD019A60102CDAD22C50 /* BeEmpty.swift */; };
 		83AA85DE4138466E2FA1A0EF /* NonNilMatcherWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4A3A51C2A6B3427F636C5 /* NonNilMatcherWrapper.swift */; };
+		863B66E81B1E6C30001C88FE /* NewRidePresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66E71B1E6C30001C88FE /* NewRidePresenterSpec.swift */; };
 		8854931F00908951E40206DE /* AssertionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466F40B9E92ECF7AF2B7EA19 /* AssertionRecorder.swift */; };
 		8EA3702A9C8B7D85A9976E33 /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBDCCCC12C05492A2F9CD93 /* QCKDSL.m */; };
 		928C05CE61243297FE2EF378 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C5008CFE07818EC2DBDC2A /* Failure.swift */; };
@@ -145,6 +146,7 @@
 		8483044D98EB9B47E70A8DBB /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
 		860ED59F12136D91432B1C6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		86145A0716F0B648D9D38F1A /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		863B66E71B1E6C30001C88FE /* NewRidePresenterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewRidePresenterSpec.swift; path = ../CyclecityTests/NewRidePresenterSpec.swift; sourceTree = "<group>"; };
 		894FE03ED061E40B2C8F6932 /* BeIdenticalTo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeIdenticalTo.swift; path = Nimble/Matchers/BeIdenticalTo.swift; sourceTree = "<group>"; };
 		8FCAC860392CA109C4D69327 /* Pods-CyclecityTests-Nimble-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CyclecityTests-Nimble-dummy.m"; sourceTree = "<group>"; };
 		93877E120753FCBE9E5600D2 /* Pods-CyclecityTests-Nimble-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyclecityTests-Nimble-Private.xcconfig"; sourceTree = "<group>"; };
@@ -405,6 +407,7 @@
 		CF1EEE5709BAC1737691DDD0 = {
 			isa = PBXGroup;
 			children = (
+				863B66E71B1E6C30001C88FE /* NewRidePresenterSpec.swift */,
 				A503D454D0B831DFD4A9F323 /* Podfile */,
 				85FF02600318AF6707B84B94 /* Frameworks */,
 				00C0134EC76946FA5426FAAF /* Pods */,
@@ -561,6 +564,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863B66E81B1E6C30001C88FE /* NewRidePresenterSpec.swift in Sources */,
 				7CAABB83FF7EF257A0E7FB98 /* Pods-CyclecityTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -634,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F9ACD674EC655839AA29E4F2 /* Pods-CyclecityTests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -753,6 +758,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A8AE5FF49B74AB15E7E53351 /* Pods-CyclecityTests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

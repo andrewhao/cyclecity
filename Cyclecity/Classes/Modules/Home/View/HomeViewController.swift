@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, HomeViewInterface {
+class HomeViewController: UITabBarController, HomeViewInterface {
   var eventHandler: HomeModuleInterface?
   
   // MARK: - View lifecycle
