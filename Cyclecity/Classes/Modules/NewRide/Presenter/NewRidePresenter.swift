@@ -8,8 +8,7 @@
 
 import Foundation
 
-class NewRidePresenter: NSObject, NewRideModuleInterface
-{
+class NewRidePresenter: NSObject, NewRideModuleInterface {
     var interactor: NewRideInteractor?
     var wireframe: NewRideWireframe?
     var userInterface: NewRideViewInterface?

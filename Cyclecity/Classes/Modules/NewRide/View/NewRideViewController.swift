@@ -8,33 +8,29 @@
 
 import UIKit
 
-class NewRideViewController: UIViewController, NewRideViewInterface
-{
-    var eventHandler: NewRideModuleInterface?
+class NewRideViewController: UIViewController, NewRideViewInterface {
+  var eventHandler: NewRideModuleInterface?
 
     // MARK: - View lifecycle
 
-    override func viewDidLoad()
-    {
-        super.viewDidLoad()
+    override func viewDidLoad() {
+      super.viewDidLoad()
     }
 
-    override func viewWillAppear(animated: Bool)
-    {
-        super.viewWillAppear(animated)
-    }
+  override func viewWillAppear(animated: Bool) {
+    super.viewWillAppear(animated)
+  }
 
-    override func viewDidAppear(animated: Bool)
-    {
-        super.viewDidAppear(animated)
-    }
+  override func viewDidAppear(animated: Bool) {
+    super.viewDidAppear(animated)
+  }
 
-    // MARK: - NewRideViewInterface methods
+  // MARK: - NewRideViewInterface methods
 
-    // *** implement view_interface methods here
+  // *** implement view_interface methods here
 
-    // MARK: - Button event handlers
+  // MARK: - Button event handlers
 
-    // ** handle UI events here
+  // ** handle UI events here
 
 }

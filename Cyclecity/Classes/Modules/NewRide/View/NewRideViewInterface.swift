@@ -8,7 +8,6 @@
 
 import Foundation
 
-protocol NewRideViewInterface
-{
+protocol NewRideViewInterface {
 
 }
