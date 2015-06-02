@@ -24,7 +24,6 @@ class CyclecityAppDelegate: UIResponder, UIApplicationDelegate
     self.dependencies = CyclecityAppDependencies.initWithWindow(self.window!)
     
     // adding RootViewController
-    // ahao: For now, the storyboard loads the root view controller.
     self.dependencies!.installRootViewController()
     
     self.window!.makeKeyAndVisible()

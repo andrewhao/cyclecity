@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1574E1FB722AB6D2191D5CF4 /* Pods_CyclecityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		863B66CF1B1E345F001C88FE /* RootWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */; };
 		864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclecityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootWireframeSpec.swift; path = CyclecityTests/RootWireframeSpec.swift; sourceTree = "<group>"; };
 		864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframeSpec.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		86A436631B1CD5A9005CE1A1 = {
 			isa = PBXGroup;
 			children = (
+				863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */,
 				86A4366E1B1CD5A9005CE1A1 /* Cyclecity */,
 				86A436841B1CD5A9005CE1A1 /* CyclecityTests */,
 				86A4366D1B1CD5A9005CE1A1 /* Products */,
@@ -457,6 +460,7 @@
 				864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */,
 				86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */,
 				86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */,
+				863B66CF1B1E345F001C88FE /* RootWireframeSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

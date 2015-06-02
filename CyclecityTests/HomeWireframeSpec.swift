@@ -8,10 +8,7 @@ class HomeWireframeSpec: QuickSpec {
       var subject: HomeWireframe?
       
       beforeEach {
-        subject = HomeWireframe.init()
       }
-      
-      it("presents itself from the ") { }
     }
   }
 }

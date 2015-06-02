@@ -10,9 +10,9 @@ import Foundation
 import UIKit
 
 public class RootWireframe: NSObject {
- var window: UIWindow
+  public var window: UIWindow
   
-  init(window: UIWindow) {
+  public init(window: UIWindow) {
     self.window = window
     super.init()
   }

@@ -42,7 +42,6 @@ public class CyclecityAppDependencies: NSObject {
     var homePresenter: HomePresenter      = HomePresenter()
     var homeDataManager: HomeDataManager  = HomeDataManager()
     var homeInteractor: HomeInteractor    = HomeInteractor()
-    var homeViewController: HomeViewController    = HomeViewController()
     
     // presenter <-> wireframe
     homePresenter.wireframe = homeWireframe
