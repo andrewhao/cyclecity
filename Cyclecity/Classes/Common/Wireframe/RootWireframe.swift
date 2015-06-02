@@ -9,9 +9,11 @@
 import Foundation
 import UIKit
 
-class RootWireframe: NSObject {
+public class RootWireframe: NSObject {
+ var window: UIWindow
+  
   init(window: UIWindow) {
+    self.window = window
     super.init()
-    // custom initialization
   }
 }

@@ -16,8 +16,6 @@ class CyclecityAppDelegate: UIResponder, UIApplicationDelegate
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
-    println("I got here 1")
-
     // initialize window
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
     self.window?.backgroundColor = UIColor.whiteColor()
@@ -26,7 +24,8 @@ class CyclecityAppDelegate: UIResponder, UIApplicationDelegate
     self.dependencies = CyclecityAppDependencies.initWithWindow(self.window!)
     
     // adding RootViewController
-    self.dependencies?.installRootViewController()
+    // ahao: For now, the storyboard loads the root view controller.
+    self.dependencies!.installRootViewController()
     
     self.window!.makeKeyAndVisible()
     

@@ -9,20 +9,34 @@
 import Foundation
 import UIKit
 
-class HomeWireframe: NSObject {
-    var rootWireframe: RootWireframe?
-    var presenter: HomePresenter?
-    var viewController: HomeViewController?
+let HomeViewControllerIdentifier = "HomeViewController"
 
-    func presentSelfFromViewController(viewController: UIViewController) {
-        // save reference
-        self.viewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
+public class HomeWireframe: NSObject {
+  public var rootWireframe: RootWireframe?
+  var presenter: HomePresenter?
+  var viewController: HomeViewController?
 
-        // view <-> presenter
-        self.presenter?.userInterface = self.viewController
-        self.viewController?.eventHandler = self.presenter
+  public func presentSelfFromViewController(viewController: UIViewController) {
+      // save reference
+      self.viewController = HomeViewController(nibName: "HomeViewController", bundle: nil)
 
-        // present controller
-        // *** present self with RootViewController
-    }
+      // view <-> presenter
+      self.presenter?.userInterface = self.viewController
+      self.viewController?.eventHandler = self.presenter
+
+      // present controller
+      // *** present self with RootViewController
+  }
+  
+  func mainStoryboard() -> UIStoryboard {
+    let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+    return storyboard
+  }
+  
+  func homeViewController() -> HomeViewController {
+    let storyboard: UIStoryboard = mainStoryboard()
+    let homeViewController: HomeViewController = storyboard.instantiateViewControllerWithIdentifier(HomeViewControllerIdentifier) as! HomeViewController
+    return homeViewController
+  }
+
 }

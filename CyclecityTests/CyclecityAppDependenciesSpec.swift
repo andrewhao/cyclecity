@@ -4,12 +4,17 @@ import Cyclecity
 
 class CyclecityAppDependenciesSpec: QuickSpec {
   override func spec() {
+    class MockUIWindow: UIWindow {}
+    let mockWindow = MockUIWindow()
+    var subject: CyclecityAppDependencies?
+    
+    beforeEach {
+      subject = CyclecityAppDependencies.initWithWindow(mockWindow)
+    }
+    
     describe("#installRootViewControllerIntoWindow") {
-      it("adds the root view controller to the window") {
-        class MockUIWindow: UIWindow {}
-        let mockWindow = MockUIWindow()
-        
-        expect(CyclecityAppDependencies.initWithWindow(mockWindow)).to(equal(true))
+      it("returns a CyclecityAppDependency") {
+        expect(subject).to(beAnInstanceOf(CyclecityAppDependencies))
       }
     }
   }

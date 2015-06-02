@@ -18,30 +18,35 @@ public class CyclecityAppDependencies: NSObject {
     
     return obj
   }
-  
+ 
+  var rootWireframe: RootWireframe?
+  var homeWireframe: HomeWireframe?
+ 
+  // TODO/ahao Evaluate this is needed? A no-op for now.
   public func installRootViewController() {
     // *** present first wireframe here
+    rootWireframe!.window.rootViewController = homeWireframe!.homeViewController()
   }
   
   func configureDependencies(window: UIWindow) {
     // -----
     // root classes
-    let rootWireframe = RootWireframe.init(window: window)
+    rootWireframe = RootWireframe.init(window: window)
     // *** add datastore
-    
+    homeWireframe = HomeWireframe()
     // *** module initialization
     // ------------------------------------------------------------------
     // begin Home module
     
     // instantiate classes
-    var homeWireframe: HomeWireframe      = HomeWireframe()
     var homePresenter: HomePresenter      = HomePresenter()
     var homeDataManager: HomeDataManager  = HomeDataManager()
     var homeInteractor: HomeInteractor    = HomeInteractor()
+    var homeViewController: HomeViewController    = HomeViewController()
     
     // presenter <-> wireframe
     homePresenter.wireframe = homeWireframe
-    homeWireframe.presenter = homePresenter
+    homeWireframe!.presenter = homePresenter
     
     // presenter <-> interactor
     homePresenter.interactor = homeInteractor
@@ -54,7 +59,7 @@ public class CyclecityAppDependencies: NSObject {
     // *** connect datastore
     
     // connect wireframes
-    homeWireframe.rootWireframe = rootWireframe
+    homeWireframe!.rootWireframe = rootWireframe
     // *** connect more wireframes
     
     // configure delegate
