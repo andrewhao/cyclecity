@@ -34,7 +34,9 @@ public class CyclecityAppDependencies: NSObject {
     rootWireframe = RootWireframe.init(window: window)
     // *** add datastore
     homeWireframe = HomeWireframe()
+    
     // *** module initialization
+    
     // ------------------------------------------------------------------
     // begin Home module
     
@@ -65,6 +67,39 @@ public class CyclecityAppDependencies: NSObject {
     // *** add delegate here if needed
     
     // end Home module
+    // ------------------------------------------------------------------
+    
+    // ------------------------------------------------------------------
+    // begin NewRide module
+    
+    // instantiate classes
+    var newrideWireframe: NewRideWireframe      = NewRideWireframe()
+    var newridePresenter: NewRidePresenter      = NewRidePresenter()
+    var newrideDataManager: NewRideDataManager  = NewRideDataManager()
+    var newrideInteractor: NewRideInteractor    = NewRideInteractor()
+    
+    // presenter <-> wireframe
+    newridePresenter.wireframe = newrideWireframe
+    newrideWireframe.presenter = newridePresenter
+    
+    // presenter <-> interactor
+    newridePresenter.interactor = newrideInteractor
+    newrideInteractor.presenter = newridePresenter
+    
+    // interactor -> data_manager
+    newrideInteractor.dataManager = newrideDataManager
+    
+    // data_manager -> data_store
+    // *** connect datastore
+    
+    // connect wireframes
+    newrideWireframe.rootWireframe = rootWireframe
+    // *** connect more wireframes
+    
+    // configure delegate
+    // *** add delegate here if needed
+    
+    // end NewRide module
     // ------------------------------------------------------------------
   }
 }

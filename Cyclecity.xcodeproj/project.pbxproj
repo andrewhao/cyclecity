@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		1574E1FB722AB6D2191D5CF4 /* Pods_CyclecityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		863B66CF1B1E345F001C88FE /* RootWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */; };
+		863B66DE1B1E5001001C88FE /* NewRideDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66D21B1E5001001C88FE /* NewRideDataManager.swift */; };
+		863B66DF1B1E5001001C88FE /* NewRideInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66D41B1E5001001C88FE /* NewRideInteractor.swift */; };
+		863B66E01B1E5001001C88FE /* NewRideModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66D61B1E5001001C88FE /* NewRideModuleInterface.swift */; };
+		863B66E11B1E5001001C88FE /* NewRidePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66D81B1E5001001C88FE /* NewRidePresenter.swift */; };
+		863B66E21B1E5001001C88FE /* NewRideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DA1B1E5001001C88FE /* NewRideViewController.swift */; };
+		863B66E31B1E5001001C88FE /* NewRideViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */; };
+		863B66E41B1E5001001C88FE /* NewRideWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */; };
 		864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
@@ -41,6 +48,13 @@
 		03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclecityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.debug.xcconfig"; sourceTree = "<group>"; };
 		863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootWireframeSpec.swift; path = CyclecityTests/RootWireframeSpec.swift; sourceTree = "<group>"; };
+		863B66D21B1E5001001C88FE /* NewRideDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideDataManager.swift; sourceTree = "<group>"; };
+		863B66D41B1E5001001C88FE /* NewRideInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideInteractor.swift; sourceTree = "<group>"; };
+		863B66D61B1E5001001C88FE /* NewRideModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideModuleInterface.swift; sourceTree = "<group>"; };
+		863B66D81B1E5001001C88FE /* NewRidePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRidePresenter.swift; sourceTree = "<group>"; };
+		863B66DA1B1E5001001C88FE /* NewRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewController.swift; sourceTree = "<group>"; };
+		863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewInterface.swift; sourceTree = "<group>"; };
+		863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideWireframe.swift; sourceTree = "<group>"; };
 		864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframeSpec.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,6 +104,68 @@
 				B72303B35C8DB7197496F702 /* Pods-CyclecityTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		863B66D01B1E5001001C88FE /* NewRide */ = {
+			isa = PBXGroup;
+			children = (
+				863B66D11B1E5001001C88FE /* DataManager */,
+				863B66D31B1E5001001C88FE /* Interactor */,
+				863B66D51B1E5001001C88FE /* ModuleInterface */,
+				863B66D71B1E5001001C88FE /* Presenter */,
+				863B66D91B1E5001001C88FE /* View */,
+				863B66DC1B1E5001001C88FE /* Wireframe */,
+			);
+			path = NewRide;
+			sourceTree = "<group>";
+		};
+		863B66D11B1E5001001C88FE /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				863B66D21B1E5001001C88FE /* NewRideDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		863B66D31B1E5001001C88FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				863B66D41B1E5001001C88FE /* NewRideInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		863B66D51B1E5001001C88FE /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				863B66D61B1E5001001C88FE /* NewRideModuleInterface.swift */,
+			);
+			path = ModuleInterface;
+			sourceTree = "<group>";
+		};
+		863B66D71B1E5001001C88FE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				863B66D81B1E5001001C88FE /* NewRidePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		863B66D91B1E5001001C88FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				863B66DA1B1E5001001C88FE /* NewRideViewController.swift */,
+				863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		863B66DC1B1E5001001C88FE /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */,
+			);
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 		86A436631B1CD5A9005CE1A1 = {
@@ -214,6 +290,7 @@
 		86F6CEEF1B1D258700CADD18 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				863B66D01B1E5001001C88FE /* NewRide */,
 				86F6CEF01B1D258700CADD18 /* Home */,
 			);
 			path = Modules;
@@ -441,7 +518,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F6CF041B1D258700CADD18 /* HomePresenter.swift in Sources */,
+				863B66E11B1E5001001C88FE /* NewRidePresenter.swift in Sources */,
 				86F6CF061B1D258700CADD18 /* HomeViewInterface.swift in Sources */,
+				863B66DE1B1E5001001C88FE /* NewRideDataManager.swift in Sources */,
 				86F6CF001B1D258700CADD18 /* CyclecityAppDependencies.swift in Sources */,
 				86F6CF071B1D258700CADD18 /* HomeWireframe.swift in Sources */,
 				86F6CEFF1B1D258700CADD18 /* CyclecityAppDelegate.swift in Sources */,
@@ -450,6 +529,11 @@
 				86F6CF011B1D258700CADD18 /* HomeDataManager.swift in Sources */,
 				86F6CF021B1D258700CADD18 /* HomeInteractor.swift in Sources */,
 				86F6CEFE1B1D258700CADD18 /* RootWireframe.swift in Sources */,
+				863B66DF1B1E5001001C88FE /* NewRideInteractor.swift in Sources */,
+				863B66E01B1E5001001C88FE /* NewRideModuleInterface.swift in Sources */,
+				863B66E41B1E5001001C88FE /* NewRideWireframe.swift in Sources */,
+				863B66E21B1E5001001C88FE /* NewRideViewController.swift in Sources */,
+				863B66E31B1E5001001C88FE /* NewRideViewInterface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
