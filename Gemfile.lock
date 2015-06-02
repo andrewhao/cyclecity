@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    boa (0.3.1)
+      thor
+    thor (0.19.1)
+    vipergen (0.2.4)
+      thor
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  boa
+  vipergen
