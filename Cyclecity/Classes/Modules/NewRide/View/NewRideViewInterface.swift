@@ -8,6 +8,6 @@
 
 import Foundation
 
-protocol NewRideViewInterface {
+public protocol NewRideViewInterface {
   func startRecording()
 }

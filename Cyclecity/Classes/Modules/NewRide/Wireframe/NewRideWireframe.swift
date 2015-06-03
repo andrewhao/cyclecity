@@ -9,14 +9,12 @@
 import Foundation
 import UIKit
 
-class NewRideWireframe: NSObject
-{
+public class NewRideWireframe: NSObject {
     var rootWireframe: RootWireframe?
     var presenter: NewRidePresenter?
     var viewController: NewRideViewController?
 
-    func presentSelfFromViewController(viewController: UIViewController)
-    {
+    func presentSelfFromViewController(viewController: UIViewController) {
         // save reference
         self.viewController = NewRideViewController(nibName: "NewRideViewController", bundle: nil)
 

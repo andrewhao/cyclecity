@@ -8,8 +8,11 @@
 
 import Foundation
 
-class NewRideInteractor: NSObject
-{
-    var presenter: NewRidePresenter?
-    var dataManager: NewRideDataManager?
+public class NewRideInteractor: NSObject {
+  var presenter: NewRidePresenter?
+  var dataManager: NewRideDataManager?
+
+  public func startRecordingGpsTrack() {
+    // TODO/ahao
+  }
 }

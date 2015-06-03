@@ -8,14 +8,15 @@
 
 import Foundation
 
-class NewRidePresenter: NSObject, NewRideModuleInterface {
-  var interactor: NewRideInteractor?
-  var wireframe: NewRideWireframe?
-  var userInterface: NewRideViewInterface?
+public class NewRidePresenter: NSObject, NewRideModuleInterface {
+  public var interactor: NewRideInteractor?
+  public var wireframe: NewRideWireframe?
+  public var userInterface: NewRideViewInterface?
 
   // MARK: - NewRideModuleInterface methods
   // implement module interface here
 
-  func startRecordingGpsTrack() {
+  public func startRecordingGpsTrack() {
+    interactor!.startRecordingGpsTrack()
   }
 }
