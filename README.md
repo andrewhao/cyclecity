@@ -19,3 +19,20 @@ To use boa:
 Or if your weapon of choice is vipergen, use:
 
     $ bundle exec vipergen generate RideHistory --path=Classes --language=swift --author="Andrew Hao"
+
+### Development flow
+
+XCode - develop as usual.
+
+#### Continuous testing
+
+Tests are runnable on the command line with `guard-shell` and
+`xcodebuild`/`xcpretty`.
+
+    $ ./build.sh
+
+If you want live tests, you can run:
+
+    $ bundle exec guard
+
+which will watch the file system and re-run the tests as files change.
