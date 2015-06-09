@@ -17,7 +17,6 @@
 		863B66E31B1E5001001C88FE /* NewRideViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */; };
 		863B66E41B1E5001001C88FE /* NewRideWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */; };
 		863B66E61B1E6821001C88FE /* NewRideViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */; };
-		864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */; };
 		86A436771B1CD5A9005CE1A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A436751B1CD5A9005CE1A1 /* Main.storyboard */; };
 		86A436791B1CD5A9005CE1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A436781B1CD5A9005CE1A1 /* Images.xcassets */; };
 		86A4367C1B1CD5A9005CE1A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86A4367A1B1CD5A9005CE1A1 /* LaunchScreen.xib */; };
@@ -25,6 +24,10 @@
 		86A8FA681B1E72E3008581DF /* NewRidePresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8FA671B1E72E3008581DF /* NewRidePresenterSpec.swift */; };
 		86A8FA6A1B1E7C7D008581DF /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8FA691B1E7C7D008581DF /* Location.swift */; };
 		86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */; };
+		86E185501B21E7460099C666 /* LocationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E1854E1B21E7460099C666 /* LocationSpec.swift */; };
+		86E185511B21E7460099C666 /* HomeWireframeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E1854F1B21E7460099C666 /* HomeWireframeSpec.swift */; };
+		86E185531B21E8920099C666 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E185521B21E8920099C666 /* Ride.swift */; };
+		86E185551B21E8AE0099C666 /* RideSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E185541B21E8AE0099C666 /* RideSpec.swift */; };
 		86F6CEFE1B1D258700CADD18 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEEC1B1D258700CADD18 /* RootWireframe.swift */; };
 		86F6CEFF1B1D258700CADD18 /* CyclecityAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEED1B1D258700CADD18 /* CyclecityAppDelegate.swift */; };
 		86F6CF001B1D258700CADD18 /* CyclecityAppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F6CEEE1B1D258700CADD18 /* CyclecityAppDependencies.swift */; };
@@ -50,7 +53,7 @@
 /* Begin PBXFileReference section */
 		03A4A3D1981D5F28E13A3A59 /* Pods_CyclecityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyclecityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E2C200A86529489D75B624 /* Pods-CyclecityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CyclecityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CyclecityTests/Pods-CyclecityTests.debug.xcconfig"; sourceTree = "<group>"; };
-		863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootWireframeSpec.swift; path = CyclecityTests/RootWireframeSpec.swift; sourceTree = "<group>"; };
+		863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframeSpec.swift; sourceTree = "<group>"; };
 		863B66D21B1E5001001C88FE /* NewRideDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideDataManager.swift; sourceTree = "<group>"; };
 		863B66D41B1E5001001C88FE /* NewRideInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideInteractor.swift; sourceTree = "<group>"; };
 		863B66D61B1E5001001C88FE /* NewRideModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideModuleInterface.swift; sourceTree = "<group>"; };
@@ -58,8 +61,7 @@
 		863B66DA1B1E5001001C88FE /* NewRideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewController.swift; sourceTree = "<group>"; };
 		863B66DB1B1E5001001C88FE /* NewRideViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewInterface.swift; sourceTree = "<group>"; };
 		863B66DD1B1E5001001C88FE /* NewRideWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideWireframe.swift; sourceTree = "<group>"; };
-		863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewRideViewControllerSpec.swift; path = CyclecityTests/NewRideViewControllerSpec.swift; sourceTree = "<group>"; };
-		864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframeSpec.swift; sourceTree = "<group>"; };
+		863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRideViewControllerSpec.swift; sourceTree = "<group>"; };
 		86A4366C1B1CD5A9005CE1A1 /* Cyclecity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cyclecity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A436701B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436761B1CD5A9005CE1A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,8 +71,12 @@
 		86A436861B1CD5A9005CE1A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyclecityTests.swift; sourceTree = "<group>"; };
 		86A8FA671B1E72E3008581DF /* NewRidePresenterSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRidePresenterSpec.swift; sourceTree = "<group>"; };
-		86A8FA691B1E7C7D008581DF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Cyclecity/Classes/Common/Model/Location.swift; sourceTree = "<group>"; };
+		86A8FA691B1E7C7D008581DF /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDependenciesSpec.swift; sourceTree = "<group>"; };
+		86E1854E1B21E7460099C666 /* LocationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSpec.swift; sourceTree = "<group>"; };
+		86E1854F1B21E7460099C666 /* HomeWireframeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeWireframeSpec.swift; sourceTree = "<group>"; };
+		86E185521B21E8920099C666 /* Ride.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		86E185541B21E8AE0099C666 /* RideSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideSpec.swift; sourceTree = "<group>"; };
 		86F6CEEC1B1D258700CADD18 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
 		86F6CEED1B1D258700CADD18 /* CyclecityAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDelegate.swift; sourceTree = "<group>"; };
 		86F6CEEE1B1D258700CADD18 /* CyclecityAppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclecityAppDependencies.swift; sourceTree = "<group>"; };
@@ -177,9 +183,6 @@
 		86A436631B1CD5A9005CE1A1 = {
 			isa = PBXGroup;
 			children = (
-				86A8FA691B1E7C7D008581DF /* Location.swift */,
-				863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */,
-				863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */,
 				86A4366E1B1CD5A9005CE1A1 /* Cyclecity */,
 				86A436841B1CD5A9005CE1A1 /* CyclecityTests */,
 				86A4366D1B1CD5A9005CE1A1 /* Products */,
@@ -220,8 +223,12 @@
 		86A436841B1CD5A9005CE1A1 /* CyclecityTests */ = {
 			isa = PBXGroup;
 			children = (
+				86E185541B21E8AE0099C666 /* RideSpec.swift */,
+				863B66E51B1E6821001C88FE /* NewRideViewControllerSpec.swift */,
+				863B66CE1B1E345F001C88FE /* RootWireframeSpec.swift */,
+				86E1854E1B21E7460099C666 /* LocationSpec.swift */,
+				86E1854F1B21E7460099C666 /* HomeWireframeSpec.swift */,
 				86A8FA671B1E72E3008581DF /* NewRidePresenterSpec.swift */,
-				864C1FE31B1E18A400B679DA /* HomeWireframeSpec.swift */,
 				86A436871B1CD5A9005CE1A1 /* CyclecityTests.swift */,
 				86D6EF401B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift */,
 				86A436851B1CD5A9005CE1A1 /* Supporting Files */,
@@ -270,6 +277,8 @@
 		86F6CEE81B1D258700CADD18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				86A8FA691B1E7C7D008581DF /* Location.swift */,
+				86E185521B21E8920099C666 /* Ride.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -539,6 +548,7 @@
 				86F6CF011B1D258700CADD18 /* HomeDataManager.swift in Sources */,
 				86F6CF021B1D258700CADD18 /* HomeInteractor.swift in Sources */,
 				86F6CEFE1B1D258700CADD18 /* RootWireframe.swift in Sources */,
+				86E185531B21E8920099C666 /* Ride.swift in Sources */,
 				863B66DF1B1E5001001C88FE /* NewRideInteractor.swift in Sources */,
 				863B66E01B1E5001001C88FE /* NewRideModuleInterface.swift in Sources */,
 				863B66E41B1E5001001C88FE /* NewRideWireframe.swift in Sources */,
@@ -551,9 +561,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E185551B21E8AE0099C666 /* RideSpec.swift in Sources */,
+				86E185511B21E7460099C666 /* HomeWireframeSpec.swift in Sources */,
 				86A8FA681B1E72E3008581DF /* NewRidePresenterSpec.swift in Sources */,
+				86E185501B21E7460099C666 /* LocationSpec.swift in Sources */,
 				863B66E61B1E6821001C88FE /* NewRideViewControllerSpec.swift in Sources */,
-				864C1FE41B1E18A400B679DA /* HomeWireframeSpec.swift in Sources */,
 				86A436881B1CD5A9005CE1A1 /* CyclecityTests.swift in Sources */,
 				86D6EF411B1D0C1300EB27BF /* CyclecityAppDependenciesSpec.swift in Sources */,
 				863B66CF1B1E345F001C88FE /* RootWireframeSpec.swift in Sources */,

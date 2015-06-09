@@ -11,12 +11,12 @@
 import Foundation
 
 public struct Location {
-  let latitude: Float
-  let longitude: Float
-  let time: NSDate?
-  let elevation: Float?
+  public let latitude: Float
+  public let longitude: Float
+  public let time: NSDate?
+  public let elevation: Float?
   
-  init(latitude: Float, longitude: Float, time: NSDate, elevation: Float) {
+  public init(latitude: Float, longitude: Float, time: NSDate, elevation: Float) {
     self.latitude = latitude
     self.longitude = longitude
     self.time = time
