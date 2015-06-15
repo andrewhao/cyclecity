@@ -8,11 +8,20 @@
 
 import Foundation
 
+public struct Loc {
+  public var x: Float
+  public var y: Float
+  public init(x: Float, y: Float) {
+    self.x = x
+    self.y = y
+  }
+}
+
 public struct Ride {
-  public let locations: [Location]
-  public let distance: Float
-  public init(distance: Float, locations: [Location]) {
+  public var distance: Float
+  public var locations: [Loc] = []
+  public init(distance: Float) {
     self.distance = distance
-    self.locations = locations
+    self.locations = [Loc(x: 10, y: 12)]
   }
 }
