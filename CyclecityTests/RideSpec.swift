@@ -5,10 +5,8 @@ import Cyclecity
 class RideSpec: QuickSpec {
   override func spec() {
     let distance: Float = 123.22
-    //let loc1 = Location(latitude: 123.0, longitude: 123.0, time: NSDate(), elevation: 5.0)
-    //let loc2 = Location(latitude: 123.0, longitude: 123.0, time: NSDate(), elevation: 5.0)
-    let loc1 = Loc(x: 123.0, y: 123.0)
-    let loc2 = Loc(x: 123.0, y: 123.0)
+    let loc1 = Location(latitude: 123.0, longitude: 123.0, time: NSDate(), elevation: 5.0)
+    let loc2 = Location(latitude: 123.0, longitude: 123.0, time: NSDate(), elevation: 5.0)
     let subject = Ride(distance: distance)
     
     describe("attributes") {
@@ -17,12 +15,11 @@ class RideSpec: QuickSpec {
       }
       
       it("stores locations") {
-        expect(subject.locations).to(equal([loc1, loc2]))
+        expect(subject.locations).to(contain(loc1))
       }
       
       it("sets up locations") {
-        expect(loc1.x
-          ).to(equal(123.0))
+        expect(loc1.latitude).to(equal(123.0))
       }
     }
     

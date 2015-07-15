@@ -15,5 +15,12 @@ class LocationSpec: QuickSpec {
         expect(subject.longitude).to(equal(longitude))
       }
     }
+    
+    describe("#==") {
+      it("returns true for same lat/lon") {
+        let newLoc: Location = Location(latitude: latitude, longitude: longitude, time: NSDate(), elevation: 44.0)
+        expect(subject as Location).to(equal(newLoc))
+      }
+    }
   }
 }

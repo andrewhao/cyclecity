@@ -10,7 +10,7 @@
 
 import Foundation
 
-public struct Location {
+public class Location {
   public let latitude: Float
   public let longitude: Float
   public let time: NSDate?
